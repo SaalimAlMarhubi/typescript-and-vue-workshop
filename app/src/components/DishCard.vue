@@ -2,12 +2,6 @@
 import { defineComponent } from 'vue'
 import type { PropType } from 'vue'
 
-type Dish = {
-  id: string
-  name: string
-  status: string
-}
-
 export default defineComponent({
   props: {
     dish: {
